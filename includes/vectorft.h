@@ -6,7 +6,7 @@
 /*   By: jbrousse <jbrousse@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/06 13:45:47 by jbrousse          #+#    #+#             */
-/*   Updated: 2024/05/06 14:44:24 by jbrousse         ###   ########.fr       */
+/*   Updated: 2024/05/06 15:00:02 by jbrousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,10 @@ typedef struct s_vector2
 	float	x;
 	float	y;
 }	t_vector2;
+
+	/////////////////////////////////////////
+	//////////// VECTOR3 FUNCTIONS //////////
+	/////////////////////////////////////////
 
 /**
  * @brief Add two vector3
@@ -86,6 +90,10 @@ t_vector3	normalize_vector3(t_vector3 a);
  * @return magnitude of vector3
 */
 float		magnitude_vector3(t_vector3 a);
+
+	/////////////////////////////////////////
+	//////////// VECTOR2 FUNCTIONS //////////
+	/////////////////////////////////////////
 
 /**
  * @brief Add two vector2
