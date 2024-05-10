@@ -6,7 +6,7 @@
 /*   By: jbrousse <jbrousse@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/06 13:45:47 by jbrousse          #+#    #+#             */
-/*   Updated: 2024/05/06 15:00:02 by jbrousse         ###   ########.fr       */
+/*   Updated: 2024/05/10 13:03:58 by jbrousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,6 +91,17 @@ t_vector3	normalize_vector3(t_vector3 a);
 */
 float		magnitude_vector3(t_vector3 a);
 
+/**
+ * @brief Create a vector3 object
+ * 
+ * @param x x coordinate
+ * @param y y coordinate
+ * @param z z coordinate
+ * 
+ * @return t_vector3
+*/
+t_vector3	vector3(float x, float y, float z);
+
 	/////////////////////////////////////////
 	//////////// VECTOR2 FUNCTIONS //////////
 	/////////////////////////////////////////
@@ -154,5 +165,15 @@ t_vector2	normalize_vector2(t_vector2 a);
  * @return magnitude of vector2
 */
 float		magnitude_vector2(t_vector2 a);
+
+/**
+ * @brief Create a vector2 object
+ * 
+ * @param x x coordinate
+ * @param y y coordinate
+ * 
+ * @return t_vector2
+*/
+t_vector2	vector2(float x, float y);
 
 #endif // VECTORFT_H

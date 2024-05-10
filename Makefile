@@ -6,7 +6,7 @@
 #    By: jbrousse <jbrousse@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/06 14:46:57 by jbrousse          #+#    #+#              #
-#    Updated: 2024/05/07 16:32:37 by jbrousse         ###   ########.fr        #
+#    Updated: 2024/05/10 13:04:30 by jbrousse         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,7 +29,8 @@ SRC_VECT2_LIST	=	add_vector2.c		\
 					dot_vector2.c		\
 					magnitude_vector2.c	\
 					normalize_vector2.c	\
-					sub_vector2.c
+					sub_vector2.c		\
+					vector2.c
 SRC_VECT2		=	$(addprefix $(SRC_VECT2_DIR), $(SRC_VECT2_LIST))
 
 SRC_VECT3_DIR	=	vector3/
@@ -38,7 +39,8 @@ SRC_VECT3_LIST	=	add_vector3.c		\
 					dot_vector3.c		\
 					magnitude_vector3.c	\
 					normalize_vector3.c	\
-					sub_vector3.c
+					sub_vector3.c		\
+					vector3.c
 SRC_VECT3		=	$(addprefix $(SRC_VECT3_DIR), $(SRC_VECT3_LIST))
 
 SRC_LIST		=	$(SRC_VECT2) \
